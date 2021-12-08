@@ -1,0 +1,73 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Malik weather assistant will help you getting weather details of different cities",
+          "examplePhrases": [
+            "Alexa open malik weather assistant",
+            "Alexa ask malik weather assistant to give weather of London",
+            "Alexa ask malik weather assistant, what’s the weather"
+          ],
+          "keywords": [
+            "weather",
+            "rain",
+            "temprature"
+          ],
+          "name": "Malik Weather Assistant",
+          "description": "Malik weather assistant will help you get weather details of different cities\nUsing this skill you can get the weather of Different cities\nIf you will not provide the city name it will give you the weather of Karachi\nThis is not a very sophisticated skill but a simple weather application that will provide you with simple weather details of Different cities",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "this is the first version of this app",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "you can simply ask for the weather of any city in the world\nfor example: \n\nUser: open malik weather assistant\nAlexa: Hello! this is Malik Weather assistant. how may I help you today? you can ask me about weather\nuser: give me weather updates of new york city\nAlexa: In New York, it\u0027s 41 degrees Fahrenheit with cloudy skies. Today\u0027s forecast calls for more of the same, with a high of 43 degrees and a low of 32 degrees.\n\n-- conversation end ---",
+      "category": "WEATHER",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:526950538157:function:5fbc4ba1-6951-45f8-bf30-4de501df7e78:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:526950538157:function:5fbc4ba1-6951-45f8-bf30-4de501df7e78:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:526950538157:function:5fbc4ba1-6951-45f8-bf30-4de501df7e78:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:526950538157:function:5fbc4ba1-6951-45f8-bf30-4de501df7e78:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://malikasinger1.github.io/Malik-Weather-Assistant/terms.html",
+          "privacyPolicyUrl": "https://malikasinger1.github.io/Malik-Weather-Assistant/privacy.html"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
